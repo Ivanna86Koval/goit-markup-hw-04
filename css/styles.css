@@ -292,8 +292,8 @@ img {
   fill: currentColor;
 }
 .team-soc-link:hover {
-  background-color: #ffffff;
-  color: #4d5ae5;
+  background-color: #404bbf;
+  color: #ffffff;
 }
 /*
 .team-soc-link:hover .team-soc-icon {
@@ -317,6 +317,37 @@ img {
   display: flex;
   max-width: 264px;
   margin-top: 16px;
+}
+.social-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.social-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  display: flex;
+  max-width: 96px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: inline-flex;
+  gap: 16px;
+}
+
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+
+.footer-soc-icon {
 }
 
 /*==================portfolio===============*/
