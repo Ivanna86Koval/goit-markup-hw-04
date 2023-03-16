@@ -350,8 +350,6 @@ img {
 }
 
 .сustomers-item {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
   top: 16px;
   left: 32px;
   width: 168px;
@@ -365,14 +363,20 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: flex;
 }
 
 .сustomers-icon {
   display: flex;
   margin: 16px 32px;
 }
+.сustomers-link:hover,
+.сustomers-link:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+
 /*======================footer=====================*/
 .footer {
   background-color: #2e2f42;
