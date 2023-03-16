@@ -343,11 +343,21 @@ img {
 }
 
 .footer-soc-item {
+  height: 40px;
+  width: 40px;
 }
 .footer-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-soc-icon {
+  fill: currentColor;
 }
 
 /*==================portfolio===============*/
