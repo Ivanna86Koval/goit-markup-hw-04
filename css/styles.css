@@ -341,7 +341,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0px;
   gap: 24px;
   width: 1128px;
@@ -373,8 +373,11 @@ img {
 }
 .сustomers-link:hover,
 .сustomers-link:focus {
-  color: #ffffff;
-  background: #404bbf;
+  fill: currentColor;
+  border-color: #8e8f99;
+}
+.сustomers-icon:hover {
+  fill: #404bbf;
 }
 
 /*======================footer=====================*/
