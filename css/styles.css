@@ -328,6 +328,51 @@ img {
 .team-soc-link:hover .team-soc-icon {
   fill: #4d5ae5;
 }*/
+
+.сustomers {
+  position: relative;
+  max-width: 1440px;
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.сustomers-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 24px;
+  width: 1128px;
+  height: 88px;
+  left: 156px;
+}
+
+.сustomers-item {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  top: 16px;
+  left: 32px;
+  width: 168px;
+  height: 88px;
+}
+
+.сustomers-link {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  display: flex;
+}
+
+.сustomers-icon {
+  display: flex;
+  margin: 16px 32px;
+}
 /*======================footer=====================*/
 .footer {
   background-color: #2e2f42;
