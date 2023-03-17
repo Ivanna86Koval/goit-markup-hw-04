@@ -335,6 +335,7 @@ img {
 .сustomers {
   position: relative;
   background-color: #ffffff;
+  text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -360,10 +361,7 @@ img {
 }
 
 .сustomers-link {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   border: 1px solid #8e8f99;
@@ -381,16 +379,9 @@ img {
 .сustomers-link:hover
 .сustomers-link:focus {
   fill: #4d5ae5
-  border-color: #8e8f99;
-}
-/*
-.сustomers-link:hover .contact-icon {
-  fill: #4d5ae5;
+  border-color:  #8e8f99;
 }
 
-.сustomers-link:focus .contact-icon {
-  fill: #4d5ae5;
-}*/
 
 /*======================footer=====================*/
 .footer {
