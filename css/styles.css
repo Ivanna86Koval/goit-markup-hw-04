@@ -359,7 +359,7 @@ img {
   height: 88px;
 }
 
-.сustomers-item {
+.сustomers-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -378,14 +378,17 @@ img {
   fill: #afb1b8;
 }
 
-.сustomers-item:hover {
+.сustomers-link:hover {
   border-color: #8e8f99;
 }
 
-.сustomers-item:hover .contact-icon {
+.сustomers-link:hover .contact-icon {
   fill: #4d5ae5;
 }
 
+.сustomers-link:focus .contact-icon {
+  fill: #4d5ae5;
+}
 /*======================footer=====================*/
 .footer {
   background-color: #2e2f42;
