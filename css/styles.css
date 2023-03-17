@@ -378,17 +378,20 @@ img {
   fill: #afb1b8;
 }
 
-.сustomers-link:hover {
+.сustomers-link:hover
+.сustomers-link:focus {
+  fill: #4d5ae5
   border-color: #8e8f99;
 }
-
+/*
 .сustomers-link:hover .contact-icon {
   fill: #4d5ae5;
 }
 
 .сustomers-link:focus .contact-icon {
   fill: #4d5ae5;
-}
+}*/
+
 /*======================footer=====================*/
 .footer {
   background-color: #2e2f42;
