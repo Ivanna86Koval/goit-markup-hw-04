@@ -217,6 +217,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -372,24 +373,30 @@ img {
   display: flex;
   margin: 16px 32px;
 }
-.сustomers-link:hover,
+.сustomers-icon {
+  fill: #404bbf;
+}
+
+/*.сustomers-link:hover,
 .сustomers-link:focus {
   fill: currentColor;
   border-color: #8e8f99;
 }
 .сustomers-icon:hover {
-  fill: #404bbf;
-}
+  fill: #404bbf;*/
 
 /*======================footer=====================*/
 .footer {
   background-color: #2e2f42;
+  max-width: 1440px;
+  height: 312px;
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-wrap {
   display: flex;
+  gap: 120;
 }
 
 .footer-text {
