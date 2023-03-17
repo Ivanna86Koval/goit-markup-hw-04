@@ -362,10 +362,10 @@ img {
 
 .сustomers-link {
   display: block;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  align-items: center;
+  justify-content: center;
   fill: #ffffff;
 }
 
@@ -376,12 +376,10 @@ img {
   fill: #afb1b8;
 }
 
-.сustomers-link:hover
-.сustomers-link:focus {
-  fill: #4d5ae5
-  border-color:  #8e8f99;
+.сustomers-link:hover .сustomers-icon {
+  border-color: #8e8f99;
+  fill: #4d5ae5;
 }
-
 
 /*======================footer=====================*/
 .footer {
@@ -445,7 +443,7 @@ img {
 }
 
 .footer-soc-icon {
-  fill: #f4f4fd;
+  fill: #8e8f99;
 }
 
 /*==================portfolio===============*/
